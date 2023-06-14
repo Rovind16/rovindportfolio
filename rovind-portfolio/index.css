@@ -706,7 +706,9 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-
+/* .contact__info {
+    max-width: var(--container-medium-width);
+}
 .contact__info ul{
     
         list-style-type: none;
@@ -715,15 +717,9 @@ body:not(.user-is-tabbing) a:focus {
 .contact__info ul a:link{
  text-decoration: none; 
   
-}
-.contact {
-  
-    padding: 30px;
-    margin: 20px; 
-     border-radius: 1px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-     text-align: center; 
-  }
+} */
+
+
 
   h2 {
     font-size: 28px;
@@ -731,16 +727,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: 20px;
   }
 
-  .contact__info {
-    margin-top: 20px;
-  }
-
-  @media (max-width: 768px) {
-    .contact{
-        padding: 20px;
-        margin: 10px;
-    }
-  }
+  
   p {
     margin-bottom: 15px;
     color: #e8e8e8;
