@@ -286,7 +286,15 @@ html {
     }
 }
 
-  
+#ll{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 1px;
+}  
+#ll a{
+    text-decoration: none;
+}
 
 body {
     font-size: var(--font-size-small);
@@ -519,7 +527,6 @@ body:not(.user-is-tabbing) a:focus {
     font-family: sans-serif;
 }
 
-/* ----- Back to Top ----- */
 
 .back-to-top {
     position: fixed;
